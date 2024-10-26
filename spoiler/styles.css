@@ -1,0 +1,20 @@
+:root{
+    --spoiler-color: #e14f4f;
+}
+
+.post{
+    width:70%;
+    background-color: #d0d0cc;
+    padding: 1.3em;
+    margin: 50px;
+    border-radius:2em ;
+}
+.spoiler{
+    background-color: var(--spoiler-color);
+    color: var(--spoiler-color);
+    transition: all .5s ease-in;
+}
+.spoiler:hover{
+    background-color: initial ;
+    color: initial;
+}
